@@ -1,10 +1,5 @@
 Factwisw/ Code TEST:
 
-
-QUESTION6:
-Total letters are:11000
-
-
 Question7:
 Card pointers array:
 Points: 9 7 7 9 7 7 9
