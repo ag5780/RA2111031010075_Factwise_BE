@@ -1,7 +1,7 @@
 def numberx(n):
     ones=["","one","two","three","four","five","six","seven","eight","nine"]
-    teens=["ten","elevent","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"]
-    tens=["","","twenty","thirty","fourty","fifty","sixty","seventy","eighty","ninety"]
+    teens=["ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"]
+    tens=["","","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"]
     thousands=["","thousand"]
     if n==0:
         return "zero"
@@ -30,9 +30,9 @@ def numberx(n):
 def countw(n):
     t=0
     for i in range(1,n+1):
-        word=numberx(n)
+        word=numberx(i)
         word=word.replace(" ","").replace("-","")
-        t+=len( word)
+        t+=len(word)
     return t
 t=countw(1000)
 print("Total letters are:",t)
